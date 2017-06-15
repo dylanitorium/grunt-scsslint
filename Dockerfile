@@ -1,4 +1,4 @@
-FROM library/node
+FROM library/node:6.10
 
 RUN apt-get update -y && \
     apt-get install -y ruby
